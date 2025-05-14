@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar-toggler {
+  background-color: #0d6efd !important;
+}
+
+.hide-bg {
+  mix-blend-mode: multiply;
+}
