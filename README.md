@@ -42,6 +42,7 @@ The database used is named `stickynotes`, which includes two tables:
 
 4. Configure your database connection, open database.php and update the following with your MySQL credentials:
    ```php
+   // database.php
    define('DB_HOST', 'localhost');
    define('DB_USER', 'your_db_username');
    define('DB_PASS', 'your_db_password');
