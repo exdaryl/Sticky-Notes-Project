@@ -31,16 +31,17 @@ The database used is named `stickynotes`, which includes two tables:
   - Columns: `id`, `user_id`, `content`, `timestamp`
 
 ## 🚀 How to Run the Project
-1. Import the database:
-2. Import the `stickynotes` database into your local MySQL server.
-  - Open Adminer (https://www.adminer.org/) or any MySQL client.
-  - Log in to your MySQL server.
-  - Create a new database named stickynotes (if it does not exist).
-  - Click Import in Adminer.
-  - Select the included stickynotes.sql file.
-  - Click Execute to import the schema and data.
+1. **Import the database**  
+   - Open your preferred MySQL client.  
+   - Log in to your MySQL server.  
+   - Create a new database named `stickynotes`.  
+   - Select or switch to the `stickynotes` database.  
+   - Use the **Import** or **Run SQL File** option in your client.  
+   - Choose the included `stickynotes.sql` file from the project directory.  
+   - Execute the import to create the necessary tables (`users` and `notes`) with all required relationships.
 
-4. Configure your database connection, open database.php and update the following with your MySQL credentials:
+2. **Configure your database connection**  
+   Open `database.php` and update the following constants with your MySQL credentials:  
    ```php
    // database.php
    define('DB_HOST', 'localhost');
