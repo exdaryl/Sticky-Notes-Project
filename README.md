@@ -1,6 +1,6 @@
 # Sticky Notes – Internet Programming Project
 
-This is a group project developed during my **Internet Programming** subject for the **Diploma in Information Technology**. The project is a sticky note web application that allows users to register, log in, and manage personal notes. The app was built using **PHP**, **Bootstrap**, **CSS**, and some **JavaScript**, with **Adminer** used as the database management tool.
+This is a group project developed during my **Internet Programming** subject for the **Diploma in Information Technology** course. The project is a sticky note web application that allows users to register, log in and manage personal notes. The app was built using **PHP**, **Bootstrap**, **CSS**, and some **JavaScript**, with **Adminer** used as the database management tool.
 
 ## 💡 My Contribution
 I was responsible for most parts of the website development, including:
